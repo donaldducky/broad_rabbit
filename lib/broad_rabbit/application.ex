@@ -10,6 +10,7 @@ defmodule BroadRabbit.Application do
     children = [
       # Starts a worker by calling: BroadRabbit.Worker.start_link(arg)
       # {BroadRabbit.Worker, arg}
+      BroadRabbit.MyBroadway
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

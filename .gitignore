@@ -25,3 +25,5 @@ broad_rabbit-*.tar
 
 # Temporary files for e.g. tests
 /tmp
+
+/log
