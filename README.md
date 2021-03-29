@@ -65,7 +65,7 @@ It seems like anything involving the `ProducerSupervisor` causes the app to go d
 
 ### SQS
 
-![supervision tree](tree.png)
+![supervision tree](tree-sqs.png)
 - killing all of the ✅ has its process restarted
 - killing the ❌ processes ends up killing the entire application
 
